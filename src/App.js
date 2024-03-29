@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Home from './Links/Home';
+import About from './Links/About';
+import Blog from './Links/Blog';
+import Project from './Links/Project';
+import Contact from './Links/Contact';
+import Resume from './Links/Resume';
+import PageNotFound from './Links/PageNotFound';
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
+import Navbar from './Component/Navbar';
+import Header from './Component/Header'
+import Hero from './Component/Hero'
+import Container from './Component/Container'
+import LogoContainer from './Component/LogoContainer';
+import AboutMe from './Component/AboutMe';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <Hero/>
+      <Container Title = {"Projects"}/>
+      <LogoContainer/>
+      <AboutMe/>
+    </>
   );
 }
 
