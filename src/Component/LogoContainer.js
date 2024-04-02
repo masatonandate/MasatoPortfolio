@@ -1,7 +1,7 @@
 import React from "react";
 import Skill from "./Skill"
 
-import Python from "../Images/Logos/python.png"
+import Python from "../Images/Logos/Python.png"
 import Swift from "../Images/Logos/swift.png"
 import Java from "../Images/Logos/java.png"
 import C from "../Images/Logos/c.png"
