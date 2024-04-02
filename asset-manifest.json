@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.eb5c8555.css",
+    "main.js": "/portfolio/static/js/main.2253609b.js",
+    "static/media/masato_art.png": "/portfolio/static/media/masato_art.ddac4b8d97e3d355bef2.png",
+    "static/media/masato_headshot.jpg": "/portfolio/static/media/masato_headshot.27969444fddf11e7e00d.jpg",
+    "static/media/Python.png": "/portfolio/static/media/Python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/react.png": "/portfolio/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/c.png": "/portfolio/static/media/c.ca323b325816f40cf155.png",
+    "static/media/r.png": "/portfolio/static/media/r.7a75d60a1ca6d1a6c922.png",
+    "static/media/swift.png": "/portfolio/static/media/swift.afa1f6867fc4ff354548.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/java.png": "/portfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/github.png": "/portfolio/static/media/github.f11021803f68852df283.png",
+    "static/media/scala.png": "/portfolio/static/media/scala.f60da3facdb61bf80843.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/portfolio/index.html",
+    "main.eb5c8555.css.map": "/portfolio/static/css/main.eb5c8555.css.map",
+    "main.2253609b.js.map": "/portfolio/static/js/main.2253609b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb5c8555.css",
+    "static/js/main.2253609b.js"
+  ]
+}
