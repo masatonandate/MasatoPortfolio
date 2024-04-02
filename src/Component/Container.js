@@ -1,64 +1,29 @@
 import React from "react";
 import SideProject from "./SideProject";
+import { Link } from "react-router-dom";
+
 
 const Container = ({Title}) => {
   return (
     <>
- <div class="bg-white py-6 sm:py-8 lg:py-12">
-  <div class="mx-auto max-w-screen-2xl px-4 md:px-20">
-    {/* <!-- text - start --> */}
-    <div class="mb-10 md:mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">{Title}</h2>
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+      <div class="mx-auto max-w-screen-2xl px-4 md:px-20">
+        {/* <!-- text - start --> */}
+        <div class="mb-6 flex items-end justify-between gap-4">
+        <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl">Projects</h2>
+        <Link to="/projects" class="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">All Projects</Link>
+      </div>
+        {/* <!-- text - end --> */}
 
-      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-        Personal Projects and School Projects
-      </p>
-    </div>
-    {/* <!-- text - end --> */}
+        <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
 
-    <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
-      {/* <!-- article - start --> */}
-      <div class="flex flex-col overflow-hidden rounded-lg border bg-white">
-        <a href="#" class="group relative block h-48 overflow-hidden bg-gray-100 md:h-64">
-          <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-        </a>
+          <SideProject Title = {"Poly Maps"} Description={"For my Senior Project I created a mobile application that uses AR Objects to guide users across Points of Interest on campus"} Date = {"Sep. 2023 - Mar. 2024"} Link = {"https://github.com/masatonandate/PolyMaps.git"} Image = {"/SideProjects/groupcart.jpg"}/>
+          <SideProject Title = {"Decision Tree"} Description={"We built a Decision Tree from scratch in Java Spark to classify whether an individual made more or less than $50,000 a year. The data comes from UCI's ML Library"} Date = {"Mar. 2024"} Link = {"https://github.com/masatonandate/DistributedFinal"} Image = {"/SideProjects/decisionTree.png"}/>
+          <SideProject Title = {"Group Cart"} Description={"Developed in a team with MongoDB, Express.js, React, and Node.js, this web app empowers roommates to sign in, create groups, and collaboratively manage their shopping lists"} Date = {"Sep. 2022 - Dec. 2022"} Link = {"https://github.com/ethanoutangoun/groupcart.git"} Image = {"/SideProjects/groupcart.jpg"}/>
 
-        <div class="flex flex-1 flex-col p-4 sm:p-6">
-          <h2 class="mb-2 text-lg font-semibold text-gray-800">
-            <a href="#" class="transition duration-100 hover:text-indigo-500 active:text-indigo-600">New trends in Tech</a>
-          </h2>
-
-          <p class="mb-8 text-gray-500">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
-
-          <div class="mt-auto flex items-end justify-between">
-            <div class="flex items-center gap-2">
-              <div class="h-10 w-10 shrink-0 overflow-hidden rounded-full bg-gray-100">
-                <img src="https://images.unsplash.com/photo-1611898872015-0571a9e38375?auto=format&q=75&fit=crop&w=64" loading="lazy" alt="Photo by Brock Wegner" class="h-full w-full object-cover object-center" />
-              </div>
-
-              <div>
-                <span class="block text-indigo-500">Mike Lane</span>
-                <span class="block text-sm text-gray-400">July 19, 2021</span>
-              </div>
-            </div>
-
-            <span class="rounded border px-2 py-1 text-sm text-gray-500">Article</span>
-          </div>
         </div>
       </div>
-      {/* <!-- article - end --> */}
-
-      {/* <!-- article - start --> */}
-      <SideProject Title = {"Example"} Description={""} Date = {""}/>
-      {/* <!-- article - end --> */}
-
-      {/* <!-- article - start --> */}
-      <SideProject Title = {"Example"} Description={""} Date = {"March 08, 2002"}/>
-      {/* <!-- article - end --> */}
-
     </div>
-  </div>
-</div>
     </>
   )
 }

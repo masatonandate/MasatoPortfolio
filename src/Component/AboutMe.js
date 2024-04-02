@@ -19,9 +19,18 @@ const AboutMe = () => {
           <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">About Me</h1>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-          This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text.<br /><br />
+          Graduating with a Bachelors in Computer Science and Minor in Statistics from <a class = "hover:text-indigo-500" href = "https://www.calpoly.edu/" target="_blank" rel="noopener noreferrer">Cal Poly San Luis Obispo</a> (2024),
+          I am looking for oppurtunities to start my career journey in Software.
+          I am interested in pursuing positions as a Software Engineer, Mobile Engineer, or Data Scientist.<br /><br />
+          My experience comes from my Software Engineering Internship for Gap Inc., where I contributed to the companies retail mobile application, and campus involvement
+          as a computer science tutor and data analyst for the school newspaper. <br/><br/>
 
-          This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is <a href="#" class="text-indigo-500 underline transition duration-100 hover:text-indigo-600 active:text-indigo-700">random</a> or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text.
+          I am a very social person and I love to work hard in a team towards a common goal.
+           Also, I believe in life-long learning and I am always looking for ways to learn new technical skills through the internet. <br/><br/>
+
+          My hobbies outside of Computer Science include Soccer, Beach Volleyball, Photography, Piano, and Drawing. <br/><br/>
+
+          This page will continue to be updated!<br /><br />
           </p>
         </div>
       </div>
