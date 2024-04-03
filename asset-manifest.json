@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/MasatoPortfolio/static/css/main.eb5c8555.css",
-    "main.js": "/MasatoPortfolio/static/js/main.d93076c1.js",
-    "static/media/masato_art.png": "/MasatoPortfolio/static/media/masato_art.ddac4b8d97e3d355bef2.png",
-    "static/media/masato_headshot.jpg": "/MasatoPortfolio/static/media/masato_headshot.27969444fddf11e7e00d.jpg",
-    "static/media/Python.png": "/MasatoPortfolio/static/media/Python.6a5cbc319ab3ddf8ef92.png",
-    "static/media/react.png": "/MasatoPortfolio/static/media/react.86c8d9eba03e29814d2a.png",
-    "static/media/c.png": "/MasatoPortfolio/static/media/c.ca323b325816f40cf155.png",
-    "static/media/r.png": "/MasatoPortfolio/static/media/r.7a75d60a1ca6d1a6c922.png",
-    "static/media/swift.png": "/MasatoPortfolio/static/media/swift.afa1f6867fc4ff354548.png",
-    "static/media/mysql.png": "/MasatoPortfolio/static/media/mysql.7d8d571e5629923eaf74.png",
-    "static/media/java.png": "/MasatoPortfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
-    "static/media/github.png": "/MasatoPortfolio/static/media/github.f11021803f68852df283.png",
-    "static/media/scala.png": "/MasatoPortfolio/static/media/scala.f60da3facdb61bf80843.png",
-    "static/media/js.png": "/MasatoPortfolio/static/media/js.3dfb665e058d08c99f28.png",
-    "index.html": "/MasatoPortfolio/index.html",
-    "main.eb5c8555.css.map": "/MasatoPortfolio/static/css/main.eb5c8555.css.map",
-    "main.d93076c1.js.map": "/MasatoPortfolio/static/js/main.d93076c1.js.map"
+    "main.css": "/static/css/main.eb5c8555.css",
+    "main.js": "/static/js/main.9512c5b4.js",
+    "static/media/masato_art.png": "/static/media/masato_art.ddac4b8d97e3d355bef2.png",
+    "static/media/masato_headshot.jpg": "/static/media/masato_headshot.27969444fddf11e7e00d.jpg",
+    "static/media/Python.png": "/static/media/Python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/react.png": "/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/c.png": "/static/media/c.ca323b325816f40cf155.png",
+    "static/media/r.png": "/static/media/r.7a75d60a1ca6d1a6c922.png",
+    "static/media/swift.png": "/static/media/swift.afa1f6867fc4ff354548.png",
+    "static/media/mysql.png": "/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
+    "static/media/scala.png": "/static/media/scala.f60da3facdb61bf80843.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/index.html",
+    "main.eb5c8555.css.map": "/static/css/main.eb5c8555.css.map",
+    "main.9512c5b4.js.map": "/static/js/main.9512c5b4.js.map"
   },
   "entrypoints": [
     "static/css/main.eb5c8555.css",
-    "static/js/main.d93076c1.js"
+    "static/js/main.9512c5b4.js"
   ]
 }
