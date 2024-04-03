@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MasatoPortfolio/static/css/main.eb5c8555.css",
-    "main.js": "/MasatoPortfolio/static/js/main.a4335ad4.js",
+    "main.js": "/MasatoPortfolio/static/js/main.d93076c1.js",
     "static/media/masato_art.png": "/MasatoPortfolio/static/media/masato_art.ddac4b8d97e3d355bef2.png",
     "static/media/masato_headshot.jpg": "/MasatoPortfolio/static/media/masato_headshot.27969444fddf11e7e00d.jpg",
     "static/media/Python.png": "/MasatoPortfolio/static/media/Python.6a5cbc319ab3ddf8ef92.png",
@@ -16,10 +16,10 @@
     "static/media/js.png": "/MasatoPortfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/MasatoPortfolio/index.html",
     "main.eb5c8555.css.map": "/MasatoPortfolio/static/css/main.eb5c8555.css.map",
-    "main.a4335ad4.js.map": "/MasatoPortfolio/static/js/main.a4335ad4.js.map"
+    "main.d93076c1.js.map": "/MasatoPortfolio/static/js/main.d93076c1.js.map"
   },
   "entrypoints": [
     "static/css/main.eb5c8555.css",
-    "static/js/main.a4335ad4.js"
+    "static/js/main.d93076c1.js"
   ]
 }
