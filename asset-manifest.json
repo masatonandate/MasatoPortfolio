@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb5c8555.css",
-    "main.js": "/static/js/main.9512c5b4.js",
+    "main.css": "/static/css/main.4a91b132.css",
+    "main.js": "/static/js/main.4171f716.js",
     "static/media/masato_art.png": "/static/media/masato_art.ddac4b8d97e3d355bef2.png",
     "static/media/masato_headshot.jpg": "/static/media/masato_headshot.27969444fddf11e7e00d.jpg",
     "static/media/Python.png": "/static/media/Python.6a5cbc319ab3ddf8ef92.png",
@@ -11,15 +11,15 @@
     "static/media/swift.png": "/static/media/swift.afa1f6867fc4ff354548.png",
     "static/media/mysql.png": "/static/media/mysql.7d8d571e5629923eaf74.png",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
-    "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
     "static/media/scala.png": "/static/media/scala.f60da3facdb61bf80843.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/GithubNeutral.png": "/static/media/GithubNeutral.e7a2d0059914b1f71b05.png",
     "index.html": "/index.html",
-    "main.eb5c8555.css.map": "/static/css/main.eb5c8555.css.map",
-    "main.9512c5b4.js.map": "/static/js/main.9512c5b4.js.map"
+    "main.4a91b132.css.map": "/static/css/main.4a91b132.css.map",
+    "main.4171f716.js.map": "/static/js/main.4171f716.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb5c8555.css",
-    "static/js/main.9512c5b4.js"
+    "static/css/main.4a91b132.css",
+    "static/js/main.4171f716.js"
   ]
 }
