@@ -1,4 +1,4 @@
-var imgPrefix = "SideProjects"
+var imgPrefix = "./SideProjects"
 const SideProjectData = [
   {
     id: "14",

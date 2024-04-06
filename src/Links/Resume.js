@@ -1,11 +1,13 @@
 import React from 'react'
 import Header from '../Component/Header';
-import FilterContainer from '../Component/FilterContainer';
+import Footer from '../Component/Footer';
+
 
 const Resume = () => {
   return (
     <div>
       <Header />
+      <Footer />
     </div>
   )
 }

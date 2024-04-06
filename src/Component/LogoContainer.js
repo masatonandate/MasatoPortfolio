@@ -14,11 +14,11 @@ import Scala from "../Images/Logos/scala.png"
 
 const LogoContainer = ({Title}) => {
   return (
-    <div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-20">
     {/* <!-- text - start --> */}
     <div class="mb-10 md:mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Skills</h2>
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-gray-200 md:mb-6 lg:text-3xl">Skills</h2>
     </div>
     {/* <!-- text - end --> */}
 

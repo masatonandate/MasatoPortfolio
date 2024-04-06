@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import SideProject from "./SideProject";
 
@@ -16,16 +15,16 @@ const FilterContainer = ({data}) => {
 
   return (
   <>
-    <div class="bg-white py-2 sm:py-2 lg:py-4">
+    <div class="bg-white dark:bg-gray-900 py-2 sm:py-2 lg:py-4">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-20">
           {/* <!-- text - start --> */}
           <div class="mb-6 flex items-end justify-between gap-4">
-          <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl">Projects</h2>
+          <h2 class="text-2xl font-bold text-gray-800 dark:text-gray-200 lg:text-3xl">Projects</h2>
           {/* <button class="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">
             Filter
           </button> */}
           <select name = "filter" value = {language} onChange = {handleChangeFilter}
-            class ="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-4 md:py-3 md:text-base>">
+            class ="inline-block rounded-lg border  dark:border-gray-700 bg-indigo-500 px-4 py-2 text-center text-sm font-semibold text-gray-800 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-600 md:px-4 md:py-3 md:text-base>">
             <option value="">Select Language</option>
             <option value = "Python">Python</option>
             <option value = "Java">Java</option>
@@ -37,17 +36,17 @@ const FilterContainer = ({data}) => {
           </select>
         </div>
         {/* Button to Remove Filter */}
-        {language != "" &&
+        {language !== "" &&
           <div class = "my-2 "> 
             <button onClick = {handleButtonClick} class = "rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-4 md:py-2 md:text-base">
               {language}
-              <img src = "/cross.png" class = "w-6 h-6 inline-block"></img>
+              <img src = "/cross.png" alt = "x-button" class = "w-6 h-6 inline-block"></img>
             </button>
           </div>
         }
 
         <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
-          {language != ""
+          {language !== ""
             ?
             data.filter(x=>x.languages.includes(language)).map((project) => {
               return(

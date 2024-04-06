@@ -1,15 +1,13 @@
 // import './App.css';
 import Home from './Links/Home';
-import About from './Links/About';
 import Project from './Links/Project';
-import Contact from './Links/Contact';
 import Resume from './Links/Resume';
-import PageNotFound from './Links/PageNotFound';
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
+import {Routes, Route} from "react-router-dom"
 
 
 
 function App() {
+
   return (
     <>
       <Routes>

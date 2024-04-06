@@ -5,20 +5,20 @@ import AboutImage from "../Images/Photos/masato_art.png"
 const AboutMe = () => {
   return (
   <>
-  <div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
     <div class="mx-auto max-w-screen-xl px-4 md:px-8">
       <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
         <div>
           <div class="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-          <img src={AboutImage} loading="lazy" alt="Photo by Martin Sanchez" class="h-full w-full object-cover object-center" />
+          <img src={AboutImage} loading="lazy" alt="headshot" class="h-full w-full object-cover object-center" />
           </div>
         </div>
 
         <div class="md:pt-8">
 
-          <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">About Me</h1>
+          <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-gray-300 sm:text-3xl md:mb-6 md:text-left">About Me</h1>
 
-          <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+          <p class="mb-6 text-gray-500 dark:text-gray-400 sm:text-lg md:mb-8">
           Graduating with a Bachelors in Computer Science and Minor in Statistics from <a class = "hover:text-indigo-500" href = "https://www.calpoly.edu/" target="_blank" rel="noopener noreferrer">Cal Poly San Luis Obispo</a> (2024),
           I am looking for oppurtunities to start my career journey in Software.
           I am interested in pursuing positions as a Software Engineer, Mobile Engineer, or Data Scientist.<br /><br />
